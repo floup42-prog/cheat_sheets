@@ -1,7 +1,7 @@
 # Dotenv
 Dotenv est une gem qui permet de stocker des clés d'API dans un joli fichier contenant toutes nos clés secrêtes, pour éviter de les push sur Github à l'arrache.
 
-## Komment que ça marche ?
+## Comment que ça marche ?
 En gros on va mettre toutes les clés dans un fichier `.env`, puis on pourra les appeler en faisant `ENV['NOM_DE_LA_CLÉ']` dans notre programme Ruby. Puis afin d'éviter de pousser le bousin sur Github, on mettra le fichier `.env` dans notre `.gitignore`
 
 ## Exemple avec un dossier Ruby simple
